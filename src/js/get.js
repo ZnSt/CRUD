@@ -1,16 +1,54 @@
-const BASE_URL = 'http://localhost:7777';
-function fetchBooks() {
-  return fetch(`${BASE_URL}/books`)
-    .then(response => response.json())
-    .then(data => console.log(data));
+// const BASE_URL = 'http://localhost:7777';
+// function fetchBooks() {
+//   return fetch(`${BASE_URL}/books`)
+//     .then(response => response.json())
+//     .then(data => console.log(data));
+// }
+
+// fetchBooks();
+
+// function fetchBooksById(id) {
+//   return fetch(`${BASE_URL}/books/${id}`)
+//     .then(response => response.json())
+//     .then(data => console.log(data));
+// }
+
+// fetchBooksById(1);
+
+const fetchUsersBtn = document.querySelector('.btn');
+const userList = document.querySelector('.user-list');
+
+fetchUsersBtn.addEventListener('click', async () => {
+  try {
+    const users = await fetchUsers();
+    renderUserListItems(users);
+  } catch (error) {
+    console.log(error.message);
+  }
+});
+
+async function fetchUsers() {
+  const baseUrl = 'https://jsonplaceholder.typicode.com';
+  const userIds = [1, 2, 3, 4, 5];
+
+  const arrayOfPromises = userIds.map(async userId => {
+    const response = await fetch(`${baseUrl}/users/${userId}`);
+    return response.json();
+  });
+
+  const users = await Promise.all(arrayOfPromises);
+  return users;
 }
 
-fetchBooks();
-
-function fetchBooksById(id) {
-  return fetch(`${BASE_URL}/books/${id}`)
-    .then(response => response.json())
-    .then(data => console.log(data));
+function renderUserListItems(users) {
+  const markup = users
+    .map(
+      user => `<li class="item">
+        <p><b>Name</b>: ${user.name}</p>
+        <p><b>Email</b>: ${user.email}</p>
+        <p><b>Company</b>: ${user.company.name}</p>
+      </li>`
+    )
+    .join('');
+  userList.innerHTML = markup;
 }
-
-fetchBooksById(1);

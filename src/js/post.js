@@ -19,14 +19,36 @@ function addBook(book) {
 //   author: 'Я',
 //   genres: ['CSS'],
 //   rating: 8,
-// }).then(renderBook);
+// })
+//   .then(renderBook)
+//   .catch(error => console.log(error));
 
 // addBook({
 //   title: 'Тестовая книга по HTML',
 //   author: 'Я',
 //   genres: ['HTML'],
 //   rating: 5,
-// }).then(renderBook);
+// })
+//   .then(renderBook)
+//   .catch(error => console.log(error));
+
+// addBook({
+//   title: 'Тестовая книга по NODE.JS',
+//   author: 'Alex',
+//   genres: ['NODE.JS'],
+//   rating: 15,
+// })
+//   .then(renderBook)
+//   .catch(error => console.log(error));
+
+// addBook({
+//   title: 'Тестовая книга по REACT',
+//   author: 'Monnley',
+//   genres: ['REACT'],
+//   rating: 25,
+// })
+//   .then(renderBook)
+//   .catch(error => console.log(error));
 
 function renderBook(book) {
   console.log('Пришел ответ от бекенда можно рисовать');

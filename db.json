@@ -90,11 +90,11 @@
     },
     {
       "title": "Тестовая книга по CSS",
-      "author": "Я",
+      "author": "Репета Сашка",
       "genres": [
         "CSS"
       ],
-      "rating": 8,
+      "rating": 100,
       "id": 12
     },
     {
@@ -103,11 +103,11 @@
       "genres": [
         "CSS"
       ],
-      "rating": 8,
+      "rating": 55,
       "id": 13
     },
     {
-      "title": "Тестовая книга по CSS",
+      "title": "Большая новая тестовая книга по HTML",
       "author": "Я",
       "genres": [
         "CSS"
@@ -124,6 +124,132 @@
       "rating": 8,
       "id": 15
     },
+    [
+      {
+        "title": "Тестовая книга по CSS",
+        "author": "Я",
+        "genres": [
+          "CSS"
+        ],
+        "rating": 8
+      },
+      {
+        "title": "Тестовая книга по CSS",
+        "author": "Я",
+        "genres": [
+          "CSS"
+        ],
+        "rating": 8
+      }
+    ],
+    [
+      {
+        "title": "Тестовая книга по CSS",
+        "author": "Я",
+        "genres": [
+          "CSS"
+        ],
+        "rating": 8
+      },
+      {
+        "title": "Тестовая книга по HTML",
+        "author": "Я",
+        "genres": [
+          "HTML"
+        ],
+        "rating": 5
+      }
+    ],
+    [
+      {
+        "title": "Тестовая книга по CSS",
+        "author": "Я",
+        "genres": [
+          "CSS"
+        ],
+        "rating": 8
+      },
+      {
+        "title": "Тестовая книга по HTML",
+        "author": "Я",
+        "genres": [
+          "HTML"
+        ],
+        "rating": 5
+      }
+    ],
+    [
+      {
+        "title": "Тестовая книга по CSS",
+        "author": "Я",
+        "genres": [
+          "CSS"
+        ],
+        "rating": 8
+      },
+      {
+        "title": "Тестовая книга по HTML",
+        "author": "Я",
+        "genres": [
+          "HTML"
+        ],
+        "rating": 5
+      }
+    ],
+    {
+      "title": "Тестовая книга по HTML",
+      "author": "Я",
+      "genres": [
+        "HTML"
+      ],
+      "rating": 5,
+      "id": 19
+    },
+    {
+      "title": "Тестовая книга по NODE.JS",
+      "author": "Alex",
+      "genres": [
+        "NODE.JS"
+      ],
+      "rating": 15,
+      "id": 20
+    },
+    {
+      "title": "Тестовая книга по REACT",
+      "author": "Monnley",
+      "genres": [
+        "REACT"
+      ],
+      "rating": 25,
+      "id": 21
+    },
+    {
+      "title": "Тестовая книга по HTML",
+      "author": "Я",
+      "genres": [
+        "HTML"
+      ],
+      "rating": 5,
+      "id": 22
+    },
+    {
+      "title": "Тестовая книга по NODE.JS",
+      "author": "Alex",
+      "genres": [
+        "NODE.JS"
+      ],
+      "rating": 15,
+      "id": 23
+    },
+    {
+      "title": "Тестовая книга по REACT",
+      "author": "Monnley",
+      "genres": [
+        "REACT"
+      ],
+      "rating": 25,
+      "id": 24
+    },
     {
       "title": "Тестовая книга по CSS",
       "author": "Я",
@@ -131,79 +257,34 @@
         "CSS"
       ],
       "rating": 8,
-      "id": 16
+      "id": 25
     },
-    [
-      {
-        "title": "Тестовая книга по CSS",
-        "author": "Я",
-        "genres": [
-          "CSS"
-        ],
-        "rating": 8
-      },
-      {
-        "title": "Тестовая книга по CSS",
-        "author": "Я",
-        "genres": [
-          "CSS"
-        ],
-        "rating": 8
-      }
-    ],
-    [
-      {
-        "title": "Тестовая книга по CSS",
-        "author": "Я",
-        "genres": [
-          "CSS"
-        ],
-        "rating": 8
-      },
-      {
-        "title": "Тестовая книга по HTML",
-        "author": "Я",
-        "genres": [
-          "HTML"
-        ],
-        "rating": 5
-      }
-    ],
-    [
-      {
-        "title": "Тестовая книга по CSS",
-        "author": "Я",
-        "genres": [
-          "CSS"
-        ],
-        "rating": 8
-      },
-      {
-        "title": "Тестовая книга по HTML",
-        "author": "Я",
-        "genres": [
-          "HTML"
-        ],
-        "rating": 5
-      }
-    ],
-    [
-      {
-        "title": "Тестовая книга по CSS",
-        "author": "Я",
-        "genres": [
-          "CSS"
-        ],
-        "rating": 8
-      },
-      {
-        "title": "Тестовая книга по HTML",
-        "author": "Я",
-        "genres": [
-          "HTML"
-        ],
-        "rating": 5
-      }
-    ]
+    {
+      "title": "Тестовая книга по NODE.JS",
+      "author": "Alex",
+      "genres": [
+        "NODE.JS"
+      ],
+      "rating": 15,
+      "id": 26
+    },
+    {
+      "title": "Тестовая книга по HTML",
+      "author": "Я",
+      "genres": [
+        "HTML"
+      ],
+      "rating": 5,
+      "id": 27
+    },
+    {
+      "title": "Тестовая книга по REACT",
+      "author": "Monnley",
+      "genres": [
+        "REACT"
+      ],
+      "rating": 25,
+      "id": 28
+    }
   ]
 }
